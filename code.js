@@ -80,7 +80,6 @@ const getIngredients = (mealData)=>{
 
 
 // for displayIngredients
-
 const generateIngredients = (ingredients, meal)=>{
     const newIngredients = [];
     ingredients.forEach((item) => {
@@ -116,3 +115,6 @@ const displayData  = (meal, ingredientsAndIcon)=>{
     `
     ingredientArea.innerHTML = data ;
 }
+
+
+// ======================= End =================================================================================================================
