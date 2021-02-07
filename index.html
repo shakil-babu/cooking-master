@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking master || search , choose then eat.</title>
+    <!-- font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- custom style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- nav section -->
+    <nav class="nav">
+        <div class="flex">
+            <h4 class="brand-title">Cooking master</h4>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Recipes</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- search area -->
+    <section class="search-area">
+        <div class="search-box">
+            <div class="input-icon">
+                <span><i class="fas fa-search"></i></span>
+                <input id="input-field" class="input-field" type="text" placeholder="Search for Meal...">
+            </div>
+            <button class="search-btn" id="search-btn">Search</button>
+        </div>
+    </section>
+
+    <!-- display-ingredients -->
+    <section id="display-ingredients">
+        <div id="card-area" class="card-area">
+            
+        </div>
+    </section>
+
+    <!-- meal area -->
+    <section class="meal-area">
+        <h3 class="not-found"></h3>
+        <div id="meals" class="meals">
+
+        </div>
+
+    </section>
+
+    
+    <!-- script -->
+    <script src="./code.js"></script>
+</body>
+</html>
+

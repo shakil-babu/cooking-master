@@ -1,0 +1,191 @@
+/* ============= roboto font ============== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+/* =============== start style =========== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EDD263;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ============= for nav-area ============== */
+.nav{
+    width: 75%;
+    margin:auto ;
+    padding: 20px 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.brand-title{
+    color:#3B2D64;
+    font-size: 20px;
+    font-weight: 300;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 15px;
+    color: #383838;
+   
+}
+.nav ul li a:hover{
+    border-bottom:1px solid #383838 ;
+    color: #3B2D64;
+}
+
+/* ============= for search-area ============== */
+.search-area {
+    width: 570px;
+    margin:auto;
+    
+}
+.search-box{
+    background: #F8F7F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 6px 6px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    
+}
+.input-icon{
+    display: flex;
+}
+
+.input-icon span i{
+    background-color: #fff;
+    padding: 13px 10px;
+    font-size: 14px;
+    color: lightgray;
+
+}
+.input-icon .input-field{
+    padding: 12px 0px;
+    width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 0px 6px 6px 0px;
+    color: lightgray;
+    font-weight: 500;
+}
+
+
+.search-btn{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #3B2D64;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+/* ======================== for meal -area ====================== */
+.meal-area{
+    width: 75%;
+    margin:auto ;
+    padding-bottom: 60px;
+}
+.meals{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:20px ;
+}
+.meal-items{
+    width: 200px;
+    background: #F8F7F5;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.meal-items img{
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+}
+.meal-items h4{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*================= for not found================== */
+.not-found{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing:2.4px;
+    color:red;
+    display: none;
+}
+
+/* ================== for display-ingredients========== */
+#display-ingredients{
+
+}
+.card-area{
+    width: 40%;
+    margin:auto;
+}
+.card{
+    width: 100%;
+    background: #fff;
+    border-radius:5px;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-info{
+    margin: 25px 20px;
+}
+.card-info h3{
+    font-size: 25px;
+    color: #3B2D64;
+    font-weight: 500;
+}
+.card-info p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    padding: 15px 0;
+}
+.display-flex{
+    display: flex;
+}
+.display-flex i{
+    color: #3B2D64;
+    font-size: 16px;
+    margin-right: 8px;
+}
+.display-flex h5{
+    font-size: 15px;
+    color: #3B2D64;
+    font-weight: 300;
+    letter-spacing: 2px;
+    
+}
+.ingredients-group{
+    padding-bottom: 30px;
+}
